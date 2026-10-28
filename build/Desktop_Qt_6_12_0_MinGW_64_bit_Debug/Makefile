@@ -529,6 +529,30 @@ build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_LoginDemo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\appLoginDemo.dir\build.make CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_LoginDemo.cpp.s
 .PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_LoginDemo.cpp.s
 
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.obj: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.obj
+
+# target to build an object file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appLoginDemo.dir\build.make CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.obj
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.obj
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.i: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.i
+
+# target to preprocess a source file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appLoginDemo.dir\build.make CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.i
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.i
+
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.s: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.s
+
+# target to generate assembly for a file
+build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\appLoginDemo.dir\build.make CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.s
+.PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.s
+
 build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.obj: build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.cpp.obj
 .PHONY : build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.obj
 
@@ -646,6 +670,9 @@ help:
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_LoginDemo.obj
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_LoginDemo.i
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_LoginDemo.s
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.obj
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.i
+	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.s
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.obj
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.i
 	@echo ... build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.s

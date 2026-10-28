@@ -117,32 +117,46 @@ LoginDemo/appLoginDemo.qmltypes: applogindemo_qmltyperegistrations.cpp
 .rcc/qmlcache/appLoginDemo_Main_qml.cpp.aotstats: .rcc/qmlcache/appLoginDemo_Main_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appLoginDemo_Main_qml.cpp.aotstats
 
+.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp: C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp: C:/Users/enesa/Documents/LoginDemo/HomePage.qml
+.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp: .qt/rcc/qmake_LoginDemo.qrc
+.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp: .qt/rcc/appLoginDemo_raw_qml_0.qrc
+.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp: LoginDemo/appLoginDemo.qmltypes
+.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp: LoginDemo/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating .rcc/qmlcache/appLoginDemo_HomePage_qml.cpp, .rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/LoginDemo/HomePage.qml -I C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug -I C:/Qt/6.12.0/mingw_64/qml -i C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/LoginDemo/qmldir --resource C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_LoginDemo.qrc --resource C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appLoginDemo_raw_qml_0.qrc --dump-aot-stats --module-id=LoginDemo(appLoginDemo) -o C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp C:/Users/enesa/Documents/LoginDemo/HomePage.qml
+
+.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.aotstats: .rcc/qmlcache/appLoginDemo_HomePage_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appLoginDemo_HomePage_qml.cpp.aotstats
+
 .qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp: C:/Users/enesa/Documents/LoginDemo/Main.qml
+.qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp: C:/Users/enesa/Documents/LoginDemo/HomePage.qml
 .qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp: .qt/rcc/appLoginDemo_raw_qml_0.qrc
 .qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp: C:/Qt/6.12.0/mingw_64/bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Running rcc for resource appLoginDemo_raw_qml_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Running rcc for resource appLoginDemo_raw_qml_0"
 	C:\Qt\6.12.0\mingw_64\bin\rcc.exe --output C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp --name appLoginDemo_raw_qml_0 C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appLoginDemo_raw_qml_0.qrc --no-zstd
 
 appLoginDemo_autogen/timestamp: C:/Qt/6.12.0/mingw_64/bin/moc.exe
 appLoginDemo_autogen/timestamp: CMakeFiles/appLoginDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Automatic MOC and UIC for target appLoginDemo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Automatic MOC and UIC for target appLoginDemo"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/appLoginDemo_autogen.dir/AutogenInfo.json Debug
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/appLoginDemo_autogen/timestamp
 
 meta_types/appLoginDemo_json_file_list.txt: C:/Qt/6.12.0/mingw_64/bin/cmake_automoc_parser.exe
 meta_types/appLoginDemo_json_file_list.txt: appLoginDemo_autogen/timestamp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Running AUTOMOC file extraction for target appLoginDemo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Running AUTOMOC file extraction for target appLoginDemo"
 	C:\Qt\6.12.0\mingw_64\bin\cmake_automoc_parser.exe --cmake-autogen-cache-file C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/appLoginDemo_autogen.dir/ParseCache.txt --cmake-autogen-info-file C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/CMakeFiles/appLoginDemo_autogen.dir/AutogenInfo.json --output-file-path C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/meta_types/appLoginDemo_json_file_list.txt --timestamp-file-path C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/meta_types/appLoginDemo_json_file_list.txt.timestamp --cmake-autogen-include-dir-path C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/appLoginDemo_autogen/include
 
 meta_types/qt6applogindemo_metatypes.json: meta_types/qt6applogindemo_metatypes.json.gen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating meta_types/qt6applogindemo_metatypes.json"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating meta_types/qt6applogindemo_metatypes.json"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E true
 
 CMakeFiles/appLoginDemo.dir/appLoginDemo_autogen/mocs_compilation.cpp.obj: CMakeFiles/appLoginDemo.dir/flags.make
 CMakeFiles/appLoginDemo.dir/appLoginDemo_autogen/mocs_compilation.cpp.obj: CMakeFiles/appLoginDemo.dir/includes_CXX.rsp
 CMakeFiles/appLoginDemo.dir/appLoginDemo_autogen/mocs_compilation.cpp.obj: appLoginDemo_autogen/mocs_compilation.cpp
 CMakeFiles/appLoginDemo.dir/appLoginDemo_autogen/mocs_compilation.cpp.obj: CMakeFiles/appLoginDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/appLoginDemo.dir/appLoginDemo_autogen/mocs_compilation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/appLoginDemo.dir/appLoginDemo_autogen/mocs_compilation.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appLoginDemo.dir/appLoginDemo_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\appLoginDemo.dir\appLoginDemo_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\appLoginDemo.dir\appLoginDemo_autogen\mocs_compilation.cpp.obj -c C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\appLoginDemo_autogen\mocs_compilation.cpp
 
 CMakeFiles/appLoginDemo.dir/appLoginDemo_autogen/mocs_compilation.cpp.i: cmake_force
@@ -157,7 +171,7 @@ CMakeFiles/appLoginDemo.dir/main.cpp.obj: CMakeFiles/appLoginDemo.dir/flags.make
 CMakeFiles/appLoginDemo.dir/main.cpp.obj: CMakeFiles/appLoginDemo.dir/includes_CXX.rsp
 CMakeFiles/appLoginDemo.dir/main.cpp.obj: C:/Users/enesa/Documents/LoginDemo/main.cpp
 CMakeFiles/appLoginDemo.dir/main.cpp.obj: CMakeFiles/appLoginDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/appLoginDemo.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/appLoginDemo.dir/main.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appLoginDemo.dir/main.cpp.obj -MF CMakeFiles\appLoginDemo.dir\main.cpp.obj.d -o CMakeFiles\appLoginDemo.dir\main.cpp.obj -c C:\Users\enesa\Documents\LoginDemo\main.cpp
 
 CMakeFiles/appLoginDemo.dir/main.cpp.i: cmake_force
@@ -172,7 +186,7 @@ CMakeFiles/appLoginDemo.dir/applogindemo_qmltyperegistrations.cpp.obj: CMakeFile
 CMakeFiles/appLoginDemo.dir/applogindemo_qmltyperegistrations.cpp.obj: CMakeFiles/appLoginDemo.dir/includes_CXX.rsp
 CMakeFiles/appLoginDemo.dir/applogindemo_qmltyperegistrations.cpp.obj: applogindemo_qmltyperegistrations.cpp
 CMakeFiles/appLoginDemo.dir/applogindemo_qmltyperegistrations.cpp.obj: CMakeFiles/appLoginDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/appLoginDemo.dir/applogindemo_qmltyperegistrations.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appLoginDemo.dir/applogindemo_qmltyperegistrations.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wa,-mbig-obj -MD -MT CMakeFiles/appLoginDemo.dir/applogindemo_qmltyperegistrations.cpp.obj -MF CMakeFiles\appLoginDemo.dir\applogindemo_qmltyperegistrations.cpp.obj.d -o CMakeFiles\appLoginDemo.dir\applogindemo_qmltyperegistrations.cpp.obj -c C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\applogindemo_qmltyperegistrations.cpp
 
 CMakeFiles/appLoginDemo.dir/applogindemo_qmltyperegistrations.cpp.i: cmake_force
@@ -187,7 +201,7 @@ CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/q
 CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_LoginDemo.cpp.obj: CMakeFiles/appLoginDemo.dir/includes_CXX.rsp
 CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_LoginDemo.cpp.obj: .qt/rcc/qrc_qmake_LoginDemo.cpp
 CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_LoginDemo.cpp.obj: CMakeFiles/appLoginDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_LoginDemo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_LoginDemo.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_LoginDemo.cpp.obj -MF CMakeFiles\appLoginDemo.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\rcc\qrc_qmake_LoginDemo.cpp.obj.d -o CMakeFiles\appLoginDemo.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\rcc\qrc_qmake_LoginDemo.cpp.obj -c C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\rcc\qrc_qmake_LoginDemo.cpp
 
 CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_LoginDemo.cpp.i: cmake_force
@@ -202,7 +216,7 @@ CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlc
 CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_qmlcache_loader.cpp.obj: CMakeFiles/appLoginDemo.dir/includes_CXX.rsp
 CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_qmlcache_loader.cpp.obj: .rcc/qmlcache/appLoginDemo_qmlcache_loader.cpp
 CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_qmlcache_loader.cpp.obj: CMakeFiles/appLoginDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_qmlcache_loader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_qmlcache_loader.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_qmlcache_loader.cpp.obj -MF CMakeFiles\appLoginDemo.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appLoginDemo_qmlcache_loader.cpp.obj.d -o CMakeFiles\appLoginDemo.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appLoginDemo_qmlcache_loader.cpp.obj -c C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appLoginDemo_qmlcache_loader.cpp
 
 CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_qmlcache_loader.cpp.i: cmake_force
@@ -217,7 +231,7 @@ CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlc
 CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.cpp.obj: CMakeFiles/appLoginDemo.dir/includes_CXX.rsp
 CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.cpp.obj: .rcc/qmlcache/appLoginDemo_Main_qml.cpp
 CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.cpp.obj: CMakeFiles/appLoginDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.cpp.obj -MF CMakeFiles\appLoginDemo.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appLoginDemo_Main_qml.cpp.obj.d -o CMakeFiles\appLoginDemo.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appLoginDemo_Main_qml.cpp.obj -c C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appLoginDemo_Main_qml.cpp
 
 CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.cpp.i: cmake_force
@@ -228,11 +242,26 @@ CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appLoginDemo_Main_qml.cpp -o CMakeFiles\appLoginDemo.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appLoginDemo_Main_qml.cpp.s
 
+CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.obj: CMakeFiles/appLoginDemo.dir/flags.make
+CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.obj: CMakeFiles/appLoginDemo.dir/includes_CXX.rsp
+CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.obj: .rcc/qmlcache/appLoginDemo_HomePage_qml.cpp
+CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.obj: CMakeFiles/appLoginDemo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.obj -MF CMakeFiles\appLoginDemo.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appLoginDemo_HomePage_qml.cpp.obj.d -o CMakeFiles\appLoginDemo.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appLoginDemo_HomePage_qml.cpp.obj -c C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appLoginDemo_HomePage_qml.cpp
+
+CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appLoginDemo_HomePage_qml.cpp > CMakeFiles\appLoginDemo.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appLoginDemo_HomePage_qml.cpp.i
+
+CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appLoginDemo_HomePage_qml.cpp -o CMakeFiles\appLoginDemo.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.rcc\qmlcache\appLoginDemo_HomePage_qml.cpp.s
+
 CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp.obj: CMakeFiles/appLoginDemo.dir/flags.make
 CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp.obj: CMakeFiles/appLoginDemo.dir/includes_CXX.rsp
 CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp.obj: .qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp
 CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp.obj: CMakeFiles/appLoginDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp.obj -MF CMakeFiles\appLoginDemo.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\rcc\qrc_appLoginDemo_raw_qml_0.cpp.obj.d -o CMakeFiles\appLoginDemo.dir\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\rcc\qrc_appLoginDemo_raw_qml_0.cpp.obj -c C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\rcc\qrc_appLoginDemo_raw_qml_0.cpp
 
 CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp.i: cmake_force
@@ -251,6 +280,7 @@ appLoginDemo_OBJECTS = \
 "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_LoginDemo.cpp.obj" \
 "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_qmlcache_loader.cpp.obj" \
 "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.cpp.obj" \
+"CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.obj" \
 "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp.obj"
 
 # External object files for target appLoginDemo
@@ -262,6 +292,7 @@ appLoginDemo.exe: CMakeFiles/appLoginDemo.dir/applogindemo_qmltyperegistrations.
 appLoginDemo.exe: CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_LoginDemo.cpp.obj
 appLoginDemo.exe: CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_qmlcache_loader.cpp.obj
 appLoginDemo.exe: CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.cpp.obj
+appLoginDemo.exe: CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.obj
 appLoginDemo.exe: CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp.obj
 appLoginDemo.exe: CMakeFiles/appLoginDemo.dir/build.make
 appLoginDemo.exe: C:/Qt/6.12.0/mingw_64/lib/libQt6Quick.a
@@ -275,7 +306,7 @@ appLoginDemo.exe: appLoginDemo.exe.manifest
 appLoginDemo.exe: CMakeFiles/appLoginDemo.dir/linkLibs.rsp
 appLoginDemo.exe: CMakeFiles/appLoginDemo.dir/objects1.rsp
 appLoginDemo.exe: CMakeFiles/appLoginDemo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable appLoginDemo.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable appLoginDemo.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\appLoginDemo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -288,6 +319,8 @@ CMakeFiles/appLoginDemo.dir/clean:
 
 CMakeFiles/appLoginDemo.dir/depend: .qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp
 CMakeFiles/appLoginDemo.dir/depend: .qt/rcc/qrc_qmake_LoginDemo.cpp
+CMakeFiles/appLoginDemo.dir/depend: .rcc/qmlcache/appLoginDemo_HomePage_qml.cpp
+CMakeFiles/appLoginDemo.dir/depend: .rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.aotstats
 CMakeFiles/appLoginDemo.dir/depend: .rcc/qmlcache/appLoginDemo_Main_qml.cpp
 CMakeFiles/appLoginDemo.dir/depend: .rcc/qmlcache/appLoginDemo_Main_qml.cpp.aotstats
 CMakeFiles/appLoginDemo.dir/depend: .rcc/qmlcache/appLoginDemo_qmlcache_loader.cpp

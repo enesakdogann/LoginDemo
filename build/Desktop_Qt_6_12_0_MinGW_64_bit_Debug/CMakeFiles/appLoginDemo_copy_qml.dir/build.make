@@ -69,6 +69,7 @@ CMakeFiles/appLoginDemo_copy_qml: .qt/appLoginDemo_qml.txt
 
 .qt/appLoginDemo_qml.txt: C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 .qt/appLoginDemo_qml.txt: C:/Users/enesa/Documents/LoginDemo/Main.qml
+.qt/appLoginDemo_qml.txt: C:/Users/enesa/Documents/LoginDemo/HomePage.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying appLoginDemo qml sources into build dir"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -DFILES_INFO_PATH=C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/appLoginDemo_qml.cmake -P C:/Qt/6.12.0/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 

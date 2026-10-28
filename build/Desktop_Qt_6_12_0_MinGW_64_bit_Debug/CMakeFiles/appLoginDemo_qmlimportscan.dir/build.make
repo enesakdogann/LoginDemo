@@ -71,6 +71,7 @@ CMakeFiles/appLoginDemo_qmlimportscan: .qt/qml_imports/appLoginDemo_build.cmake
 .qt/qml_imports/appLoginDemo_build.cmake: .qt/rcc/qmake_LoginDemo.qrc
 .qt/qml_imports/appLoginDemo_build.cmake: .qt/rcc/appLoginDemo_raw_qml_0.qrc
 .qt/qml_imports/appLoginDemo_build.cmake: C:/Users/enesa/Documents/LoginDemo/Main.qml
+.qt/qml_imports/appLoginDemo_build.cmake: C:/Users/enesa/Documents/LoginDemo/HomePage.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running qmlimportscanner for appLoginDemo"
 	cd /d C:\Users\enesa\Documents\LoginDemo && call C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlimportscanner.exe @C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/qml_imports/appLoginDemo_build.rsp
 

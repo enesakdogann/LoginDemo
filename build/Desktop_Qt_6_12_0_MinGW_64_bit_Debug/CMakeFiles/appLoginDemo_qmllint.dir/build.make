@@ -67,6 +67,7 @@ include CMakeFiles/appLoginDemo_qmllint.dir/progress.make
 
 CMakeFiles/appLoginDemo_qmllint: C:/Qt/6.12.0/mingw_64/bin/qmllint.exe
 CMakeFiles/appLoginDemo_qmllint: C:/Users/enesa/Documents/LoginDemo/Main.qml
+CMakeFiles/appLoginDemo_qmllint: C:/Users/enesa/Documents/LoginDemo/HomePage.qml
 CMakeFiles/appLoginDemo_qmllint: .rcc/qmllint/appLoginDemo.rsp
 	cd /d C:\Users\enesa\Documents\LoginDemo && call C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmllint.exe @C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmllint/appLoginDemo.rsp
 

@@ -68,9 +68,23 @@ include CMakeFiles/module_appLoginDemo_aotstats_target.dir/progress.make
 CMakeFiles/module_appLoginDemo_aotstats_target: .rcc/qmlcache/module_appLoginDemo.aotstats
 
 .rcc/qmlcache/module_appLoginDemo.aotstats: .rcc/qmlcache/appLoginDemo_Main_qml.cpp.aotstats
+.rcc/qmlcache/module_appLoginDemo.aotstats: .rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.aotstats
 .rcc/qmlcache/module_appLoginDemo.aotstats: .rcc/qmlcache/module_appLoginDemo.aotstatslist
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/module_appLoginDemo.aotstats"
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlaotstats.exe aggregate C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/module_appLoginDemo.aotstatslist C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/module_appLoginDemo.aotstats
+
+.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp: C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe
+.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp: C:/Users/enesa/Documents/LoginDemo/HomePage.qml
+.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp: .qt/rcc/qmake_LoginDemo.qrc
+.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp: .qt/rcc/appLoginDemo_raw_qml_0.qrc
+.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp: LoginDemo/appLoginDemo.qmltypes
+.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp: LoginDemo/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating .rcc/qmlcache/appLoginDemo_HomePage_qml.cpp, .rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.aotstats"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache
+	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/LoginDemo/HomePage.qml -I C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug -I C:/Qt/6.12.0/mingw_64/qml -i C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/LoginDemo/qmldir --resource C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_LoginDemo.qrc --resource C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appLoginDemo_raw_qml_0.qrc --dump-aot-stats --module-id=LoginDemo(appLoginDemo) -o C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp C:/Users/enesa/Documents/LoginDemo/HomePage.qml
+
+.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.aotstats: .rcc/qmlcache/appLoginDemo_HomePage_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appLoginDemo_HomePage_qml.cpp.aotstats
 
 .rcc/qmlcache/appLoginDemo_Main_qml.cpp: C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe
 .rcc/qmlcache/appLoginDemo_Main_qml.cpp: C:/Users/enesa/Documents/LoginDemo/Main.qml
@@ -78,13 +92,15 @@ CMakeFiles/module_appLoginDemo_aotstats_target: .rcc/qmlcache/module_appLoginDem
 .rcc/qmlcache/appLoginDemo_Main_qml.cpp: .qt/rcc/appLoginDemo_raw_qml_0.qrc
 .rcc/qmlcache/appLoginDemo_Main_qml.cpp: LoginDemo/appLoginDemo.qmltypes
 .rcc/qmlcache/appLoginDemo_Main_qml.cpp: LoginDemo/qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating .rcc/qmlcache/appLoginDemo_Main_qml.cpp, .rcc/qmlcache/appLoginDemo_Main_qml.cpp.aotstats"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\enesa\Documents\LoginDemo\build\Desktop_Qt_6_12_0_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating .rcc/qmlcache/appLoginDemo_Main_qml.cpp, .rcc/qmlcache/appLoginDemo_Main_qml.cpp.aotstats"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache
 	call .qt\bin\qt_setup_tool_path.bat C:/Qt/6.12.0/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/LoginDemo/Main.qml -I C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug -I C:/Qt/6.12.0/mingw_64/qml -i C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/LoginDemo/qmldir --resource C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_LoginDemo.qrc --resource C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appLoginDemo_raw_qml_0.qrc --dump-aot-stats --module-id=LoginDemo(appLoginDemo) -o C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.cpp C:/Users/enesa/Documents/LoginDemo/Main.qml
 
 .rcc/qmlcache/appLoginDemo_Main_qml.cpp.aotstats: .rcc/qmlcache/appLoginDemo_Main_qml.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate .rcc\qmlcache\appLoginDemo_Main_qml.cpp.aotstats
 
+module_appLoginDemo_aotstats_target: .rcc/qmlcache/appLoginDemo_HomePage_qml.cpp
+module_appLoginDemo_aotstats_target: .rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.aotstats
 module_appLoginDemo_aotstats_target: .rcc/qmlcache/appLoginDemo_Main_qml.cpp
 module_appLoginDemo_aotstats_target: .rcc/qmlcache/appLoginDemo_Main_qml.cpp.aotstats
 module_appLoginDemo_aotstats_target: .rcc/qmlcache/module_appLoginDemo.aotstats

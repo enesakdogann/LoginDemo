@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  ".rcc/qmlcache/appLoginDemo_HomePage_qml.cpp"
+  ".rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.aotstats"
   ".rcc/qmlcache/appLoginDemo_Main_qml.cpp"
   ".rcc/qmlcache/appLoginDemo_Main_qml.cpp.aotstats"
   ".rcc/qmlcache/module_appLoginDemo.aotstats"

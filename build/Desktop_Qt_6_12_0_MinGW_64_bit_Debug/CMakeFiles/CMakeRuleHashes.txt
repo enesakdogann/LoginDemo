@@ -9,6 +9,7 @@ b67aa398242687c684b9f09f7dd72cd3 .qt/qtconf_list.done
 bbc706aad9d5698614af4d2f2d301aa0 .qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp
 7c3137433289a25f07f470a286281da7 .qt/rcc/qrc_qmake_LoginDemo.cpp
 fdf65f8ecfedaea661e2b1cb5261463e .rcc/qmlcache/all_aotstats.aotstats
+f02986efc8aa4066535bcc2c68fc31e3 .rcc/qmlcache/appLoginDemo_HomePage_qml.cpp
 1079dc6309d889774acce92220d6e9c8 .rcc/qmlcache/appLoginDemo_Main_qml.cpp
 a16b2c62182902863001f011dc2a2b99 .rcc/qmlcache/appLoginDemo_qmlcache_loader.cpp
 55b19f855cdc60ff031e2a2ac482a28d .rcc/qmlcache/module_appLoginDemo.aotstats

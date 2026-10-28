@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   ".qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp"
   ".qt/rcc/qrc_qmake_LoginDemo.cpp"
+  ".rcc/qmlcache/appLoginDemo_HomePage_qml.cpp"
+  ".rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.aotstats"
   ".rcc/qmlcache/appLoginDemo_Main_qml.cpp"
   ".rcc/qmlcache/appLoginDemo_Main_qml.cpp.aotstats"
   ".rcc/qmlcache/appLoginDemo_qmlcache_loader.cpp"
@@ -15,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp.obj.d"
   "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_LoginDemo.cpp.obj"
   "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_LoginDemo.cpp.obj.d"
+  "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.obj"
+  "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_HomePage_qml.cpp.obj.d"
   "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.cpp.obj"
   "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.cpp.obj.d"
   "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_qmlcache_loader.cpp.obj"

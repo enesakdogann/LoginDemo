@@ -2,5 +2,6 @@ module LoginDemo
 typeinfo appLoginDemo.qmltypes
 prefer :/qt/qml/LoginDemo/
 Main 254.0 Main.qml
+HomePage 254.0 HomePage.qml
 depends QtQuick
 

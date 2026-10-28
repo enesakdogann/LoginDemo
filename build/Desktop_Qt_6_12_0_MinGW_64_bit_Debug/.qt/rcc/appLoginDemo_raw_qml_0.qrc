@@ -1,6 +1,7 @@
 <RCC>
   <qresource prefix="/qt/qml/LoginDemo/">
     <file alias="Main.qml">C:/Users/enesa/Documents/LoginDemo/Main.qml</file>
+    <file alias="HomePage.qml">C:/Users/enesa/Documents/LoginDemo/HomePage.qml</file>
   </qresource>
 </RCC>
 
