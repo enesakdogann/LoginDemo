@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  ".qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp"
+  ".qt/rcc/qrc_qmake_LoginDemo.cpp"
+  ".rcc/qmlcache/appLoginDemo_Main_qml.cpp"
+  ".rcc/qmlcache/appLoginDemo_Main_qml.cpp.aotstats"
+  ".rcc/qmlcache/appLoginDemo_qmlcache_loader.cpp"
+  "CMakeFiles/appLoginDemo_autogen.dir/AutogenUsed.txt"
+  "CMakeFiles/appLoginDemo_autogen.dir/ParseCache.txt"
+  "appLoginDemo_autogen"
+  "CMakeFiles/appLoginDemo.dir/appLoginDemo_autogen/mocs_compilation.cpp.obj"
+  "CMakeFiles/appLoginDemo.dir/appLoginDemo_autogen/mocs_compilation.cpp.obj.d"
+  "CMakeFiles/appLoginDemo.dir/applogindemo_qmltyperegistrations.cpp.obj"
+  "CMakeFiles/appLoginDemo.dir/applogindemo_qmltyperegistrations.cpp.obj.d"
+  "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp.obj"
+  "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_appLoginDemo_raw_qml_0.cpp.obj.d"
+  "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_LoginDemo.cpp.obj"
+  "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qrc_qmake_LoginDemo.cpp.obj.d"
+  "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.cpp.obj"
+  "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_Main_qml.cpp.obj.d"
+  "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_qmlcache_loader.cpp.obj"
+  "CMakeFiles/appLoginDemo.dir/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.rcc/qmlcache/appLoginDemo_qmlcache_loader.cpp.obj.d"
+  "CMakeFiles/appLoginDemo.dir/main.cpp.obj"
+  "CMakeFiles/appLoginDemo.dir/main.cpp.obj.d"
+  "LoginDemo/appLoginDemo.qmltypes"
+  "appLoginDemo.exe"
+  "appLoginDemo.exe.manifest"
+  "appLoginDemo.pdb"
+  "appLoginDemo_autogen/mocs_compilation.cpp"
+  "appLoginDemo_autogen/timestamp"
+  "applogindemo_qmltyperegistrations.cpp"
+  "libappLoginDemo.dll.a"
+  "meta_types/appLoginDemo_json_file_list.txt"
+  "meta_types/appLoginDemo_json_file_list.txt.timestamp"
+  "meta_types/qt6applogindemo_metatypes.json"
+  "meta_types/qt6applogindemo_metatypes.json.gen"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/appLoginDemo.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

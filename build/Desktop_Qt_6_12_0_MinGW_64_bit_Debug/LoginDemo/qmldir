@@ -1,0 +1,6 @@
+module LoginDemo
+typeinfo appLoginDemo.qmltypes
+prefer :/qt/qml/LoginDemo/
+Main 254.0 Main.qml
+depends QtQuick
+

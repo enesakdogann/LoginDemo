@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/enesa/Documents/LoginDemo
+-cmake-output
+-output-file
+C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/qml_imports/appLoginDemo_conf.cmake
+-importPath
+C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug
+-importPath
+C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/LoginDemo
+-importPath
+C:/Qt/6.12.0/mingw_64/qml
+-qrcFiles
+C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/qmake_LoginDemo.qrc
+C:/Users/enesa/Documents/LoginDemo/build/Desktop_Qt_6_12_0_MinGW_64_bit_Debug/.qt/rcc/appLoginDemo_raw_qml_0.qrc

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/LoginDemo/">
+    <file alias="Main.qml">C:/Users/enesa/Documents/LoginDemo/Main.qml</file>
+  </qresource>
+</RCC>
+
